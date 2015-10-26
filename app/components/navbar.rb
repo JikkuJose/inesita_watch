@@ -23,7 +23,7 @@ class NavBar
             end
 
             li class: "inactive" do
-              a href: router.url_for(:label_clock) do
+              a href: router.url_for(:watch) do
                 text 'Label Clock'
               end
             end

@@ -5,5 +5,6 @@ class Router
     route '/', to: Home
     route '/description', to: Description
     route '/clock', to: Clock
+    route '/watch', to: Watch
   end
 end
